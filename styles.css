@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+*{
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+body{
+    background-color: #fff9e7;
+    display: grid;
+    place-items: center;
+    place-content: center;
+}
+
+header{
+    text-align: center;
+    background-color: #61583e;
+    width: 500px;
+    border: 3px solid #ffbf00;
+    background: radial-gradient(circle at 50% 30%, #96938d, #1b1a18);
+    color: white;
+    font-family: "Playfair Display", serif;
+}
+
+.topico{
+    font-family: "Merriweather", serif;
+    background-color: #ffabab;
+    color: #1a1a1a;
+}
+
+ul{
+    padding-left: 30px;
+}
+
+
+ol{
+    padding-left: 30px;
+}
+
+hr{
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image:  linear-gradient(135deg, #ffbf00 25%, transparent 25%), linear-gradient(225deg, #ffbf00 25%, transparent 25%), linear-gradient(45deg, #ffbf00 25%, transparent 25%), linear-gradient(315deg, #ffbf00 25%, #ffdc73 25%);
+    background-position:  10px 0, 10px 0, 0 0, 0 0;
+    background-size: 10px 10px;
+    background-repeat: repeat;
+}
+
+footer{
+    color: #1a1a1a;
+    font-size: large;
+    font-family: "Playfair Display", serif;
+}
+
+#galeria{
+    
+    display: grid;
+    place-items: center;
+    place-content: center;
+}
+
+.galeria{
+    display: block;
+    margin-top: 35px;
+    padding: 0;
+    border: 3px solid #fac938;
+    width: 750px;
+}
